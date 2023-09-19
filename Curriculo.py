@@ -120,7 +120,7 @@ with col1:
     st.write(DESCRIPTION)
     st.write('\n')
 with col2:
-    imagem_local = Image.open(current_dir / "Picture4.png")
+    imagem_local = Image.open("Picture4.png")
     st.image(imagem_local, width= None)
 with col1:
     st.download_button(
