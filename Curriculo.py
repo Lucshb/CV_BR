@@ -86,9 +86,9 @@ right: 2rem;
 #st.markdown(page_bg_img, unsafe_allow_html=True)
 
 
-resume_file = current_dir / "Lucas Henrique de Barros.pdf"
-css_file = current_dir / "styles" / "main.css"
-profile_pic = current_dir / "logo.png"
+resume_file = "Lucas Henrique de Barros.pdf"
+css_file = "styles" / "main.css"
+profile_pic = "logo.png"
 
 
 st.markdown(
