@@ -1,7 +1,7 @@
 from pathlib import Path
 
 import streamlit as st
-import my_custom_theme
+#import my_custom_theme
 from PIL import Image
 from streamlit_extras.app_logo import add_logo
 from streamlit_lottie import st_lottie
