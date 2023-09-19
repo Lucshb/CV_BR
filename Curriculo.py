@@ -178,7 +178,7 @@ col1, col2 = st.columns(2)
 # --- JOB 1
 with col1:
     st.write("📈", "**Analista de BI  | Transportadora Garbuio**")
-    st.write("05/2023 - Present")
+    st.write("05/2023 - Atual")
     st.write(
     """
 - BI (Data View):
