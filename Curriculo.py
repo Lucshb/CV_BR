@@ -282,7 +282,7 @@ e financeiro
 
 PROJECTS_PY = {
 "📈 Dashboard Simples de Vendas - Analisando a receita da empresa": "https://projeto-dashvendas-python.streamlit.app",
-
+"📈 Análise de Dados da Fifa": "https://fifaproject.streamlit.app"
 
 }
 
@@ -297,7 +297,7 @@ st.write("---")
 st.subheader("Projetos de Portfólio")
 st.write('\n')
 
-st.write("Projetos em Python:")
+st.write("Projetos em Python (Web Apps):")
 
 for projeto_py, linker in PROJECTS_PY.items():
     st.write(f"[{projeto_py}]({linker})")
