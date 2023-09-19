@@ -86,9 +86,9 @@ right: 2rem;
 #st.markdown(page_bg_img, unsafe_allow_html=True)
 
 
-resume_file = "C:\VScode\Curriculo_Oficial\Lucas Henrique de Barros.pdf"
-css_file = "C:\VScode\Curriculo_Oficial\styles\main.css"
-profile_pic = "C:\VScode\Curriculo_Oficial\logo.png"
+resume_file = current_dir / "Lucas Henrique de Barros.pdf"
+css_file = current_dir / "styles" / "main.css"
+profile_pic = current_dir / "logo.png"
 
 
 st.markdown(
@@ -120,7 +120,7 @@ with col1:
     st.write(DESCRIPTION)
     st.write('\n')
 with col2:
-    imagem_local = Image.open('C:/VScode/Curriculo_Oficial/Picture4.png')
+    imagem_local = Image.open(current_dir / "Picture4.png')
     st.image(imagem_local, width= None)
 with col1:
     st.download_button(
