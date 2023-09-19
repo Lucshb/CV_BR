@@ -87,7 +87,7 @@ right: 2rem;
 
 
 resume_file = "Lucas Henrique de Barros.pdf"
-css_file = "styles" / "main.css"
+css_file = "styles/main.css"
 profile_pic = "logo.png"
 
 
