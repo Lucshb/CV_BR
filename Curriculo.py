@@ -283,13 +283,12 @@ e financeiro
 PROJECTS_PY = {
 "📈 Dashboard Simples de Vendas - Analisando a receita da empresa": "https://projeto-dashvendas-python.streamlit.app",
 "📈 Análise de Dados da Fifa": "https://fifaproject.streamlit.app"
-
 }
 
 
 PROJECTS_BI = {
 "📈 Dashboard Simples de Faturamento": "https://lookerstudio.google.com/reporting/3959707c-c28d-4946-b667-d1567753ebc0",
-"📈 Dashboard de Vendas": "https://app.powerbi.com/reportEmbed?reportId=25adbbf0-81d0-458b-9d45-df69128d7dee&autoAuth=true&ctid=608933d3-77e6-40ef-8d98-38484d22e5f6"
+"📈 Dashboard de Vendas ": "https://app.powerbi.com/view?r=eyJrIjoiYzQ5YTgzYWMtYjJkZi00N2U3LWIwNTYtNGYwOWI4NzIxYWY1IiwidCI6ImNjMmE5NWVhLTMzNWMtNDQzYi04NDQzLWU5YWQzM2ZmOWUwNCJ9 "
 }
 
 st.write('\n')
