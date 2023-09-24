@@ -281,7 +281,7 @@ e financeiro
 
 
 PROJECTS_PY = {
-"📈 Análise dos preços de gasolina": "https://8080-cs-6fad80d0-b494-4ab1-9702-1b5c6629f65e.cs-us-east1-pkhd.cloudshell.dev/?authuser=1",
+"📈 Análise dos preços de gasolina": "http://127.0.0.1:8080",
 "📈 Dashboard Simples de Vendas - Analisando a receita da empresa": "https://projeto-dashvendas-python.streamlit.app",
 "📈 Análise de Dados da Fifa": "https://fifaproject.streamlit.app"
 }
