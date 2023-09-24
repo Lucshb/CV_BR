@@ -281,6 +281,7 @@ e financeiro
 
 
 PROJECTS_PY = {
+"📈 WebApp - Análise dos preços de gasolina": "https://f2ad-187-19-88-62.ngrok-free.app"
 "📈 Dashboard Simples de Vendas - Analisando a receita da empresa": "https://projeto-dashvendas-python.streamlit.app",
 "📈 Análise de Dados da Fifa": "https://fifaproject.streamlit.app"
 }
