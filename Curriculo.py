@@ -288,9 +288,9 @@ PROJECTS_PY = {
 
 
 PROJECTS_BI = {
-"📈 Dashboard Simples de Faturamento": "https://lookerstudio.google.com/reporting/3959707c-c28d-4946-b667-d1567753ebc0",
-"📈 Dashboard Simples de Perfomance de Campanha": "https://lookerstudio.google.com/reporting/4157f723-d529-49c9-9baa-732865224df2",
-"📈 Dashboard de Vendas ": "https://app.powerbi.com/view?r=eyJrIjoiYzQ5YTgzYWMtYjJkZi00N2U3LWIwNTYtNGYwOWI4NzIxYWY1IiwidCI6ImNjMmE5NWVhLTMzNWMtNDQzYi04NDQzLWU5YWQzM2ZmOWUwNCJ9 "
+"📈 Dashboard Simples de Faturamento (Google Looker/Data Studio)": "https://lookerstudio.google.com/reporting/3959707c-c28d-4946-b667-d1567753ebc0",
+"📈 Dashboard Simples de Perfomance de Campanha (Google Looker/Data Studio)": "https://lookerstudio.google.com/reporting/4157f723-d529-49c9-9baa-732865224df2",
+"📈 Dashboard de Vendas (Power BI) ": "https://app.powerbi.com/view?r=eyJrIjoiYzQ5YTgzYWMtYjJkZi00N2U3LWIwNTYtNGYwOWI4NzIxYWY1IiwidCI6ImNjMmE5NWVhLTMzNWMtNDQzYi04NDQzLWU5YWQzM2ZmOWUwNCJ9 "
 }
 
 st.write('\n')
