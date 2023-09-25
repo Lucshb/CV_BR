@@ -281,7 +281,7 @@ e financeiro
 
 
 PROJECTS_PY = {
-"📈 Análise dos preços de gasolina": "http://127.0.0.1:8080",
+"📈 Análise dos preços de gasolina": "https://gaspriceapp.onrender.com",
 "📈 Dashboard Simples de Vendas - Analisando a receita da empresa": "https://projeto-dashvendas-python.streamlit.app",
 "📈 Análise de Dados da Fifa": "https://fifaproject.streamlit.app"
 }
