@@ -283,7 +283,7 @@ e financeiro
 PROJECTS_PY = {
 "📈 Análise de Equipe de Vendas": "https://sales-project.onrender.com",
 "📈 Análise dos preços de gasolina": "https://gaspriceapp.onrender.com",
-"📈 Dashboard Simples de Vendas - Analisando a receita da empresa": "https://projeto-dashvendas-python.streamlit.app",
+"📈 Análise Simples de receita da empresa": "https://projeto-dashvendas-python.streamlit.app",
 "📈 Análise de Dados da Fifa": "https://fifaproject.streamlit.app"
 }
 
