@@ -183,24 +183,24 @@ with col1:
     """
 - BI (Data View):
 \n
-- ►  Gestão de Projetos de BI
-- ►  Desenvolvimento de Dashboards de média/alta complexidade com indicadores estratégicos para geração de insights
-- ►  Responsável pelo contato com os gestores para entendimento das regras de negócio até a validação dos dados.
-- ►  Desenvolvimento em linguagem M e Dax de métricas e análise de dados importantes para o negócio.
-- ►  HTML/CSS para criação de animações utilizáveis nos Dashboards 
-- ►  Manutenção de Dashboards em funcionamento na empresa.
-- ►  Gerenciamento e liberação de acessos via Sharepoint
-- ►  Gerar relatórios específicos em Excel
-- ►  Gestão de workspaces, deploy, atualização
-- ►  Gestão de conjuntos de dados 
+- *  Gestão de Projetos de BI
+- *  Desenvolvimento de Dashboards de média/alta complexidade com indicadores estratégicos para geração de insights
+- *  Responsável pelo contato com os gestores para entendimento das regras de negócio até a validação dos dados.
+- *  Desenvolvimento em linguagem M e Dax de métricas e análise de dados importantes para o negócio.
+- *  HTML/CSS para criação de animações utilizáveis nos Dashboards 
+- *  Manutenção de Dashboards em funcionamento na empresa.
+- *  Gerenciamento e liberação de acessos via Sharepoint
+- *  Gerar relatórios específicos em Excel
+- *  Gestão de workspaces, deploy, atualização
+- *  Gestão de conjuntos de dados 
 \n
 - Engenharia de Dados:
 \n
-- ►  Consultas e manipulação em banco de dados em SQL Server, MySQL e PostgreSQL
-- ►  Configuração e gestão de gateway
-- ►  Criação, manutenção e gestão de fluxos de dados.
-- ►  Automatização de fluxo de dados com Power Automate
-- ►  Extração de informações via banco de dados e validação do Totvs/Protheus
+- *  Consultas e manipulação em banco de dados em SQL Server, MySQL e PostgreSQL
+- *  Configuração e gestão de gateway
+- *  Criação, manutenção e gestão de fluxos de dados.
+- *  Automatização de fluxo de dados com Power Automate
+- *  Extração de informações via banco de dados e validação do Totvs/Protheus
 """
 )
 
