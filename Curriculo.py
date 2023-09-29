@@ -194,6 +194,7 @@ with col1:
 - *  Gestão de workspaces, deploy, atualização
 - *  Gestão de conjuntos de dados 
 \n
+\n
 - Engenharia de Dados:
 \n
 - *  Consultas e manipulação em banco de dados em SQL Server, MySQL e PostgreSQL
