@@ -218,6 +218,21 @@ with col1:
 """
 )
 
+# --- JOB 2.5
+with col1:
+    st.write('\n')
+    st.write("📈", "Free Lancer")
+    st.write("07/2021 - 11/2022")
+    st.write(
+    """
+-   Consulta sobre soluções de Business Intelligence
+-   Criação de Dashboards estratégicos
+-   Solução de problemas de gerenciamento dos dados
+-   Manutenção de Dashboards em andamento 
+"""
+)
+
+
 
 # --- JOB 3
 with col2:
