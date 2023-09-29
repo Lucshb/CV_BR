@@ -158,7 +158,7 @@ st.subheader("Hard Skills")
 st.write(
     """
 - 📊 Visualização de Dados: Power Bi, Qlik Sense, Google Looker, Python (Streamlit, Plotly, Matplotlib)
-- 👩‍💻 Programação: Python (Numpy, Pandas), HTML e CSS.
+- 👩‍💻 Programação: Python (Numpy, Pandas), Linguagem R, HTML e CSS.
 - 🗄️ Bancos de Dados: SQL, MySQL, PostgreSQL.
 """
 )
