@@ -227,7 +227,7 @@ with col1:
     """
 -   Consulta sobre soluções de Business Intelligence
 -   Criação de Dashboards estratégicos
--   Solução de problemas de gerenciamento dos dados
+-   Solução de problemas de gerenciamento dos dados (DW, Sugestão de ERPs, Otimização de BD)
 -   Manutenção de Dashboards em andamento 
 """
 )
