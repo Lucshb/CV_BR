@@ -225,8 +225,9 @@ with col1:
     st.write("07/2021 - 11/2022")
     st.write(
     """
+-   Gerenciamento de Projetos de Dados
 -   Consulta sobre soluções de Business Intelligence
--   Criação de Dashboards estratégicos
+-   Criação de Dashboards estratégicos e customizados
 -   Solução de problemas de gerenciamento dos dados (DW, Sugestão de ERPs, Otimização de BD)
 -   Manutenção de Dashboards em andamento 
 """
