@@ -221,7 +221,7 @@ with col1:
 # --- JOB 2.5
 with col1:
     st.write('\n')
-    st.write("📈", "Free Lancer")
+    st.write("📈", "**Free Lancer**")
     st.write("07/2021 - 11/2022")
     st.write(
     """
