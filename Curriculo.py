@@ -222,7 +222,7 @@ with col1:
 with col1:
     st.write('\n')
     st.write("📈", "**Free Lancer**")
-    st.write("07/2021 - 11/2022")
+    st.write("07/2021 - Atual")
     st.write(
     """
 -   Gerenciamento de Projetos de Dados
