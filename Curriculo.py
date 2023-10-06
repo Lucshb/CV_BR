@@ -274,7 +274,7 @@ with col2:
 with col2:
     st.write('\n')
     st.write("👨🏽‍💼", "**Assistente jurídico | Dr. Vinicius Tomé & Advogados**")
-    st.write("04/2015 - 01/2018")
+    st.write("09/2018 - 04/2019")
     st.write(
     """
 -  Rotina Jurídico-Administrativa
