@@ -176,7 +176,7 @@ st.write('\n')
 col1, col2 = st.columns(2)
 
 # --- New JOB 3
-with col1:
+with col2:
     st.write('\n')
     st.write("📈", "**Analista de Dados | Transportadora Garbuio**")
     st.write("07/2024 - Atual")
