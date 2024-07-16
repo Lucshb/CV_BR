@@ -1,7 +1,6 @@
 from pathlib import Path
 
 import streamlit as st
-#import my_custom_theme
 from PIL import Image
 from streamlit_extras.app_logo import add_logo
 from streamlit_lottie import st_lottie
@@ -33,8 +32,6 @@ SOCIAL_MEDIA = {
 
 st.set_page_config(layout= 'wide', page_title=PAGE_TITLE ,page_icon=":wave:")
 
-#my_custom_theme.apply_custom_theme()
-
 add_logo("logo.png")
 
 def load_lottierur1(url: str):
@@ -44,8 +41,6 @@ def load_lottierur1(url: str):
     return r.json()
 
 lottie_hello = load_lottierur1("https://lottie.host/0c84e0de-6029-46f0-a582-b6429cfc97c4/e5VWao3q69.json")
-
-
 
 def mensagem_sucesso():
     sucesso = st.success('Arquivo baixado com sucesso!', icon = "✅")
@@ -114,7 +109,6 @@ with open(resume_file, "rb") as pdf_file:
 
 col1, col2= st.columns(2, gap="medium")
 with col1:
-    #add_logo('logo.png')
     st.title(NAME)
     st.write('\n')
     st.write(DESCRIPTION)
@@ -173,28 +167,24 @@ st.subheader("Experiências: ")
 st.write('\n')
 st.write('\n')
 
-col1, col2 = st.columns(2)
+# Colocando todas as experiências em uma única coluna para melhor legibilidade
 
-# --- New JOB 3
-with col2:
-    st.write('\n')
-    st.write("📈", "**Analista de Dados | Transportadora Garbuio**")
-    st.write("07/2024 - Atual")
-    st.write("Limeira, São Paulo, Brasil")
-    st.write(
-    """
+# --- New JOB 1
+st.write("📈", "**Analista de Dados | Transportadora Garbuio**")
+st.write("07/2024 - Atual")
+st.write("Limeira, São Paulo, Brasil")
+st.write(
+"""
 """
 )
 
-
 # --- New JOB 2
-with col1:
-    st.write('\n')
-    st.write("📈", "**Analista de BI | Sonar Power BI**")
-    st.write("05/2024 - Atual")
-    st.write("Remoto, Ribeirão Preto, São Paulo, Brasil")
-    st.write(
-    """
+st.write('\n')
+st.write("📈", "**Analista de BI | Sonar Power BI**")
+st.write("05/2024 - Atual")
+st.write("Remoto, Ribeirão Preto, São Paulo, Brasil")
+st.write(
+"""
 - Desenvolvimento de BIs em diversos setores (Alimentícios, Rurais, Transportadoras, etc.)
 - Gerenciamento de Projetos (Prazos, alinhamentos, levantamento de requisitos)
 - Criação de views em bancos SQL, MySQL e PostgreSQL
@@ -204,14 +194,13 @@ with col1:
 """
 )
 
-# --- New JOB 1
-with col2:
-    st.write('\n')
-    st.write("📈", "**Analista de Dados | Lallemand**")
-    st.write("02/2024 - 04/2024")
-    st.write("Híbrida, Piracicaba, São Paulo, Brasil")
-    st.write(
-    """
+# --- New JOB 3
+st.write('\n')
+st.write("📈", "**Analista de Dados | Lallemand**")
+st.write("02/2024 - 04/2024")
+st.write("Híbrida, Piracicaba, São Paulo, Brasil")
+st.write(
+"""
 - Gerenciamento e controle de atividades via ClickUp
 - Criação, manutenção e aprimoramento de Dashboards Operacionais (Pedidos de Compras, Envios e Estoque)
 - Manutenção de bases de dados
@@ -220,11 +209,11 @@ with col2:
 )
 
 # --- JOB 1
-with col1:
-    st.write("📈", "**Analista de BI  | Transportadora Garbuio**")
-    st.write("05/2023 - 02/2024")
-    st.write(
-    """
+st.write('\n')
+st.write("📈", "**Analista de BI  | Transportadora Garbuio**")
+st.write("05/2023 - 02/2024")
+st.write(
+"""
 - BI (Data View):
 \n
 - *  Gestão de Projetos de BI
@@ -249,12 +238,11 @@ with col1:
 )
 
 # --- JOB 2
-with col1:
-    st.write('\n')
-    st.write("📈", "**Assistente de BI | Transportadora Garbuio**")
-    st.write("02/2023 - 04/2023")
-    st.write(
-    """
+st.write('\n')
+st.write("📈", "**Assistente de BI | Transportadora Garbuio**")
+st.write("02/2023 - 04/2023")
+st.write(
+"""
 -   Desenvolvimento de Dashboards com indicadores estratégicos para geração de insights
 -   Manutenção de Dashboards em funcionamento na empresa
 -   Consultas e manipulação em banco de dados em SQL Server
@@ -263,12 +251,11 @@ with col1:
 )
 
 # --- JOB 2.5
-with col1:
-    st.write('\n')
-    st.write("📈", "**Free Lancer**")
-    st.write("07/2021 - Atual")
-    st.write(
-    """
+st.write('\n')
+st.write("📈", "**Free Lancer**")
+st.write("07/2021 - Atual")
+st.write(
+"""
 -   Gerenciamento de Projetos de Dados
 -   Consulta sobre soluções de Business Intelligence
 -   Criação de Dashboards estratégicos e customizados
@@ -277,15 +264,12 @@ with col1:
 """
 )
 
-
-
 # --- JOB 3
-with col2:
-    st.write('\n')
-    st.write("👨🏽‍💼", "**Assistente de Defensor | Defensoria Pública do Estado de São Paulo**")
-    st.write("04/2022 - 02/2023")
-    st.write(
-    """
+st.write('\n')
+st.write("👨🏽‍💼", "**Assistente de Defensor | Defensoria Pública do Estado de São Paulo**")
+st.write("04/2022 - 02/2023")
+st.write(
+"""
 -   Atendimentos presencial e online em grande número
 -   Rotina Jurídico-Administrativa
 -   Análise e explicação de situações complexas
@@ -297,12 +281,11 @@ with col2:
 )
 
 # --- JOB 4
-with col2:
-    st.write('\n')
-    st.write("👨🏽‍💼", "**Estagiário jurídico | Tribunal Regional do Trabalho 15ª Região - Campinas/SP**")
-    st.write("06/2019 - 06/2021")
-    st.write(
-    """
+st.write('\n')
+st.write("👨🏽‍💼", "**Estagiário jurídico | Tribunal Regional do Trabalho 15ª Região - Campinas/SP**")
+st.write("06/2019 - 06/2021")
+st.write(
+"""
 -  Atendimentos presencial e online em grande número
 -  Rotina Jurídico-Administrativa
 -  Análise e explicação de situações complexas
@@ -312,14 +295,13 @@ with col2:
 -  Elaboração e confecção de relatórios
 """
 )
-    
+
 # --- JOB 5
-with col2:
-    st.write('\n')
-    st.write("👨🏽‍💼", "**Assistente jurídico | Dr. Vinicius Tomé & Advogados**")
-    st.write("09/2018 - 04/2019")
-    st.write(
-    """
+st.write('\n')
+st.write("👨🏽‍💼", "**Assistente jurídico | Dr. Vinicius Tomé & Advogados**")
+st.write("09/2018 - 04/2019")
+st.write(
+"""
 -  Rotina Jurídico-Administrativa
 -  Atendimento ao cliente presencial e online
 -  Cobrança de Documento
@@ -334,19 +316,13 @@ e financeiro
 """
 )
 
-
-
-
 # --- Projects & Accomplishments ---
-
-
 PROJECTS_PY = {
 "📈 Análise de Equipe de Vendas": "https://sales-project.onrender.com",
 "📈 Análise dos preços de gasolina": "https://gaspriceapp.onrender.com",
 "📈 Análise Simples de receita da empresa": "https://projeto-dashvendas-python.streamlit.app",
 "📈 Análise de Dados da Fifa": "https://fifaproject.streamlit.app"
 }
-
 
 PROJECTS_BI = {
 "📈 Dashboard Simples de Faturamento (Google Looker/Data Studio)": "https://lookerstudio.google.com/reporting/3959707c-c28d-4946-b667-d1567753ebc0",
