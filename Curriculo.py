@@ -233,7 +233,48 @@ with col1:
 """
 )
 
+# --- New JOB 1
+with col1:
+    st.write('\n')
+    st.write("📈", "**Analista de Dados | Transportadora Garbuio**")
+    st.write("07/2024 - Atual")
+    st.write("Limeira, São Paulo, Brasil")
+    st.write(
+    """
+"""
+)
 
+# --- New JOB 2
+with col1:
+    st.write('\n')
+    st.write("📈", "**Analista de BI | Sonar Power BI**")
+    st.write("05/2024 - Atual")
+    st.write("Remoto, Ribeirão Preto, São Paulo, Brasil")
+    st.write(
+    """
+- Desenvolvimento de BIs em diversos setores (Alimentícios, Rurais, Transportadoras, etc.)
+- Gerenciamento de Projetos (Prazos, alinhamentos, levantamento de requisitos)
+- Criação de views em bancos SQL, MySQL e PostgreSQL
+- Manutenção e aprimoramento de Dashboards
+- Manutenção de bases de dados
+- Suporte em incidentes de segurança de dados
+"""
+)
+
+# --- New JOB 3
+with col1:
+    st.write('\n')
+    st.write("📈", "**Analista de Dados | Lallemand**")
+    st.write("02/2024 - 04/2024")
+    st.write("Híbrida, Piracicaba, São Paulo, Brasil")
+    st.write(
+    """
+- Gerenciamento e controle de atividades via ClickUp
+- Criação, manutenção e aprimoramento de Dashboards Operacionais (Pedidos de Compras, Envios e Estoque)
+- Manutenção de bases de dados
+- Suporte no preenchimento de relatórios e planilhas
+"""
+)
 
 # --- JOB 3
 with col2:
@@ -251,7 +292,6 @@ with col2:
 -   Elaboração e confecção de relatórios
 """
 )
-
 
 # --- JOB 4
 with col2:
@@ -290,7 +330,6 @@ e financeiro
 -  Organização de arquivos
 """
 )
-
 
 
 # --- Projects & Accomplishments ---
