@@ -205,7 +205,7 @@ with col1:
 )
 
 # --- JOB 2
-with col1:
+with col2:
     st.write('\n')
     st.write("📈", "**Assistente de BI | Transportadora Garbuio**")
     st.write("02/2023 - 04/2023")
@@ -218,7 +218,7 @@ with col1:
 """
 )
 
-# --- JOB 2.5
+# --- JOB 3
 with col1:
     st.write('\n')
     st.write("📈", "**Free Lancer**")
@@ -234,7 +234,7 @@ with col1:
 )
 
 # --- New JOB 1
-with col1:
+with col2:
     st.write('\n')
     st.write("📈", "**Analista de Dados | Transportadora Garbuio**")
     st.write("07/2024 - Atual")
@@ -262,7 +262,7 @@ with col1:
 )
 
 # --- New JOB 3
-with col1:
+with col2:
     st.write('\n')
     st.write("📈", "**Analista de Dados | Lallemand**")
     st.write("02/2024 - 04/2024")
@@ -276,8 +276,8 @@ with col1:
 """
 )
 
-# --- JOB 3
-with col2:
+# --- JOB 4
+with col1:
     st.write('\n')
     st.write("👨🏽‍💼", "**Assistente de Defensor | Defensoria Pública do Estado de São Paulo**")
     st.write("04/2022 - 02/2023")
@@ -293,7 +293,7 @@ with col2:
 """
 )
 
-# --- JOB 4
+# --- JOB 5
 with col2:
     st.write('\n')
     st.write("👨🏽‍💼", "**Estagiário jurídico | Tribunal Regional do Trabalho 15ª Região - Campinas/SP**")
@@ -310,8 +310,8 @@ with col2:
 """
 )
     
-# --- JOB 5
-with col2:
+# --- JOB 6
+with col1:
     st.write('\n')
     st.write("👨🏽‍💼", "**Assistente jurídico | Dr. Vinicius Tomé & Advogados**")
     st.write("09/2018 - 04/2019")
@@ -330,6 +330,7 @@ e financeiro
 -  Organização de arquivos
 """
 )
+
 
 
 # --- Projects & Accomplishments ---
