@@ -81,7 +81,7 @@ right: 2rem;
 #st.markdown(page_bg_img, unsafe_allow_html=True)
 
 
-resume_file = "Lucas Henrique de Barros.pdf"
+resume_file = "CV - Lucas Henrique de Barros.pdf"
 css_file = "styles/main.css"
 profile_pic = "logo.png"
 
